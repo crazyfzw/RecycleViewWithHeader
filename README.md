@@ -5,10 +5,11 @@
 [RecyclerView的不同item项实现不同的布局(玩转RecyclerView)](http://blog.csdn.net/fzw_faith/article/details/51217252)
 
 运行截图
+
 ![images](https://github.com/crazyfzw/ProjectImages/blob/master/RecycleViewWithHeader/a.jpg)
 
 
-- 主要思想是根据不同的ItemType去加载不同的布局
+1. 主要思想是根据不同的ItemType去加载不同的布局
 
 
     public int getItemViewType(int position){
@@ -34,7 +35,7 @@
           return null;
     }
 
-- 重写onAttachedToRecyclerView方法，在里面通过getSpanSize方法判断并设置当前item项应该占据多少个单元格
+2. 重写onAttachedToRecyclerView方法，在里面通过getSpanSize方法判断并设置当前item项应该占据多少个单元格
   从而避免添加的不同View在GridRecyclerView中以cell显示 
     
       public void onAttachedToRecyclerView(RecyclerView recyclerView) {
