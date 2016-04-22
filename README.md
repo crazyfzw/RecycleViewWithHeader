@@ -1,6 +1,6 @@
 # RecycleViewWithHeader
 为RecycleView添加其他View组件实现复杂布局
-
+详细可参考我的博客[RecyclerView的不同item项实现不同的布局(玩转RecyclerView)](http://blog.csdn.net/fzw_faith/article/details/51217252)
 -运行截图
 
 ![images](https://github.com/crazyfzw/ProjectImages/blob/master/RecycleViewWithHeader/a.jpg)
